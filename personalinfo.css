@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+html, body {
+	margin:0;
+	padding:0;
+}
+#toppage {
+			background-image: url("1628279071742.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			top:0;
+			opacity:0.8;
+}
+#toppage{
+			position:fixed;
+			left:0;
+			right:0;
+			height:60%;
+}
+.fa-facebook{
+			font-size: 26px;
+			color:white;
+			text-indent:19px;
+}
+.fa-whatsapp{
+			font-size: 26px;
+			color:white;
+			text-indent:19px;
+}
+.fa-instagram {
+			font-size: 26px;
+			color:white;
+			text-indent:19px;
+}
+.fa-twitter{
+			font-size: 26px;
+			color:white;
+			text-indent:19px;
+}
+button{
+			font-family: sans-serif;
+			border: 2px solid white;
+			background: transparent;
+			width: 25%;
+			height: 20%;
+			color: #1a237e;
+			border-radius: 25%;
+}
+button:hover{
+			background-color:  #004d40;
+			color: white;
+			border: 1px solid  #004d40;
+}
+.toppage-container>button>a{
+		text-decoration: none;
+		color:white;
+		font-size: 19px;
+		font-family: times new roman;
+		font-weight: bold;
+}
+.toppage-container {
+			width: 40%;
+			height: 70%;
+			margin-top:95px;
+			margin-left:160px;
+			background-color: none;
+}
+#toppage-content{
+			font-size: 18px;
+			color: white;
+			font-family: garamond, georgia;
+			direction: ltr;
+			background-color: none;
+}
+#breakpage {
+		bottom:0;
+		background-color: white;
+		position:fixed;
+		left:0;
+		right:0;
+		height:40%;
+}
+#breakpage img {
+		border-radius: 50%;
+		display: block;
+		margin: 0 auto;
+		width: 42px;
+}
+#breakcontainer{
+		width: 100%;
+		left:0;
+		right:0;
+		background-color: #004d40;
+		height:50px;
+		
+}
+#breakcontainer ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;		
+}
+#breakcontainer>ul>li{
+		width: 227px;
+		background-color: #004d40;
+		float: left;
+		text-align: center;
+}
+#breakcontainer>ul>li>a {
+		text-decoration: none;
+		color: #fafafa;
+		font-weight: bold;
+		background-color: #004d40;
+		font-size: 20px;
+		font-family: times new roman;
+}
+#breakcontainer>ul>li>a:hover{
+		color:red;
+}
+#breakcontainer>ul>li>a:active{
+		color:blue;
+}		
+.footer-body::after{
+		content: "";
+		display:block;
+		clear:both;
+}
+.footer-body>div {
+		float:left;
+		color: black;
+		padding: 10px;
+		bottom:0;
+}
+.who-iam {
+		width:33.3%;
+		background: white;
+		font-family: times new roman;
+		font-size: 16px;
+		margin:0;
+		padding:0;
+}
+.who-iam h1{
+		text-align: center;
+}
+.personalinfo {
+		width:33.3%;
+		background: white;
+		font-family: times new roman;
+		font-size: 18px;
+		margin:0;
+		padding:0;
+}
+.personalinfo h1{ 
+		text-align: left;
+}
+.expertise {
+		width:33.3%;
+		background: white;
+		font-family: times new roman;
+		font-size: 18px;
+		margin:0;
+		padding:0;
+}
+.expertise h1{ 
+		text-align: center;
+}
+hr{
+	width: 100%;
+	color: #424242;
+}
+.footer-body ul { 
+		list-style-type: circle;
+}
